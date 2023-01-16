@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="icon" href = "images/logo_switchtocode.ico" type = "image/x-icon">
+    <title>login</title>
+    <meta name="keywords" content="coding">
+</head>
+
+<body>
+    <form action="" method="get">
+        <div>
+            <label for="Name"> Your Name</label><br>
+            <input type="text" id="Name" required>
+        </div>
+        <div>
+            <label for="UserPassword">Your Password</label><br>
+            <input type="password" id="UserPassword">
+        </div>
+        <div>
+            <label for="MAIL"> Your Mail</label><br>
+            <input type="email" id="MAIL" required placeholder="abc@example.com">
+        </div>
+        <div>
+            <label for="RANGE">MarksRange</label><br>
+            <input type="range" id="RANGE" min="0" max=200 step="20">
+        </div>
+        <div>
+            <label for="TIME">ExamTime</label><br>
+            <input type="time" id="TIME" required>
+        </div>
+        <label for="Country"> Your Country</label><br>
+        <input type="country" id="Country">
+        <div>
+            <label for="year">YOB</label><br>
+            <input type="number" id="year" required value="2004">
+        </div>
+        <div>
+            <label for id="Gender"> SelectGender</label><br>
+            <input type="radio" id="Gender1" name="SelectedGender" value= "Male">Male <br>
+            <input type="radio" id="Gender2" name="SelectedGender"value= " Female">Female<br>
+            <input type="radio" id="Gender3" name="SelectedGender" value=" Others " >Other<br>
+        </div>
+        <div>
+           <label for="CourseDonel">Select courses done</label><br>
+            <input type="checkbox" id="CourseDonel" name="Course"' value = "c++">c++<br>
+            <input type = "checkbox" id = "CourseDone3" name = "Course" value = "java" checked java ><br>
+            <input type = "checkbox" id = "CourseDone2" name = "Course" value = "WebDev">webDev<br>
+         </div>
+         <div>
+            <select name = "month_selected" multiple>
+           <option> Jan</option>
+           <option>Feb</option>
+           <option selected>Mar</option> </select>
+            </div>
+            <div>
+                <p>Share Your Experience</p>
+                <textarea name = "experience" rows="10" cols="30"></textarea> <br>
+                <input type="button" value="Button 1" > 
+                <button type="button">Button 2</button>
+            </div>
+            <div>
+                <audio controls>
+                    <source src = "static/audio.mp3" type = "audio/mp3">
+                    <source src = "static/audio.oog" type = "audio/oog">
+                </audio><br>
+                <video controls>
+                    <source src = "static/video.mp4" type = "video/mp4">
+                    Browser Doesn't Supprt
+                </video>
+            <div>
+                <figure>
+                    <img src = "images/logo_switchtocode.png">
+                    <figcaption>Logo Image</figcaption>
+                </figure>
+            </div>
+            </div>
+            <div>
+                <input type = "submit">
+            </div>
+        </form>
+    </body>
+</html>
