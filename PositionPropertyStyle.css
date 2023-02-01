@@ -1,0 +1,38 @@
+html{
+    font-size: 30px;
+}
+#outer-div{
+    border: 2px ;
+    margin: 20px;
+    border-color: black;
+    position: relative;
+}
+
+
+#div1{
+    height: 200px;
+    width: 200px;
+    background-color: #393a7b;
+}
+
+#div2{
+    height: 200px;
+    width: 200px;
+    background-color: orange;
+    position: sticky;
+    left: 20px;
+    top: 20px;
+}
+
+#div3{
+    height: 200px;
+    width: 200px;
+    background-color: maroon;
+
+}
+#Div1{
+    border-color: black;
+    border-style: solid;
+    border-width: 4px;
+}
+
