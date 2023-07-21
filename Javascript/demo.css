@@ -1,0 +1,402 @@
+#body-header {
+    height: 65vh;
+    opacity: 0.8;
+    background-image: url(assets/macbook_mouse.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 1.2rem;
+}
+/*Making every section display as flex*/
+section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+section:nth-child(even){
+    background-color:whitesmoke;
+}
+section:nth-child(odd){
+    background-color: white;
+}
+/* Horizontal list*/
+
+.horizontal-list {
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+}
+
+.horizontal-list li {
+    display: inline-block;
+    margin: 0px 8px 8px 0px;
+    font-weight: 100;
+    font-size: 0.9rem;
+}
+
+
+.horizontal-list li a {
+    color: white;
+    text-decoration: none;
+}
+.Horizontal-List li a:hover{
+    color:rgb(255, 242, 189);
+    border-bottom: 1px solid white;
+}
+.text-center {
+    text-align: center;
+}
+
+/* Name */
+#NameSocialContainer{
+    margin-top: 20vh;
+}
+#my-name {
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+/* Name part */
+#MyName:hover{
+    color:rgb(216, 189, 255);
+}
+/*Social Icons part*/
+.HorizontalList2{
+    list-style: none;
+}
+.HorizontalList2 li{
+    display: inline;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.HorizontalList2 li a {
+    text-decoration: none;
+    color:rgb(183, 221, 245);
+    transition: color 0.5s;
+}
+.HorizontalList2 li a:hover{
+    color:rgb(255, 242, 189);
+}
+.HorizontalList2 li a i{
+    border-radius: 50%;
+    font-size: x-large;
+    padding:10px;
+}
+.HorizontalList2 li a i:hover{
+    box-shadow: 0px 0px 6px 4px rgba(230 ,196,196 ,0.5) ;
+}
+/* About Section*/
+#about{
+    height:auto;
+    width:100%;
+    position:relative;
+}
+#AboutPara{
+    width: 70%;
+    margin: auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:gray;
+    font-size: 1.2rem;
+    text-align: justify;
+}
+#AboutPara strong{
+    color: blue;
+}
+/*Image*/
+#my-image{
+    height: 12rem;
+    width: 12rem;
+    margin: auto;
+    margin-top: -17vh;
+}
+
+#my-image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+/* Skills Section*/
+ #sectionHeading{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    margin-top: 0px;
+    padding-top: 20px;
+ }
+ #sectionHeading span{
+    font-size: 40px;
+    font-weight: 400;
+    color:#2857a4;
+    margin-right:0.5rem;
+ }
+#skillsDisplay{
+    width:80%;
+    height:150px;
+    border:3px black solid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+/*Skills*/
+#cplus{
+    height: 1.4rem;
+    width: 7rem;
+    background-color:lightgrey;
+    border-radius:0.8rem; 
+}
+#cplus div{
+    background-color: blue;
+    height: 100%;
+    border-radius: 0.8rem;
+    width: 40%;
+    box-shadow: 2px 0px 4px 2px gray;
+    overflow: hidden;
+}
+#cplus div span{
+    color:white;
+    margin-left: 10px;
+    font-size: smaller;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* java skills */
+#java{
+    height: 1.4rem;
+    width: 7rem;
+    background-color:lightgrey;
+    border-radius:0.8rem;
+}
+#java div{
+    background-color:orange;
+    height: 100%;
+    border-radius: 0.8rem;
+    width: 80%;
+    box-shadow: 2px 0px 4px 2px gray;
+    overflow: hidden;
+}
+#java div span{
+    color:white;
+    margin-left: 10px;
+    font-size: smaller;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* html skills */
+#html{
+    height: 1.4rem;
+    width: 7rem;
+    background-color:lightgrey;
+    border-radius:0.8rem;
+}
+#html div{
+    background-color:chocolate;
+    height: 100%;
+    border-radius: 0.8rem;
+    width: 80%;
+    box-shadow: 2px 0px 4px 2px gray;
+    overflow: hidden;
+} 
+#html div span{
+    color:white;
+    margin-left: 10px;
+    font-size: smaller;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#javascript{
+    height: 1.4rem;
+    width: 7rem;
+    background-color:lightgray;
+    border-radius:0.8rem;
+}
+
+#javascript div{
+    background-color: #a42845;
+    height: 100%;
+    border-radius: 0.8rem;
+    width: 65%;
+    box-shadow: 2px 0px 4px 2px gray;
+    overflow: hidden;
+}
+#javascript div span{
+    color:white;
+    margin-left: 10px;
+    font-size: smaller;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* experience part */
+#experienceHeading{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#experienceHeading span{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: x-large;
+    color: black;
+}
+#timeLine{
+    position: relative;
+    width:75%;
+    border:2px solid black;
+}
+.timeline-Box{
+    position: relative;
+    margin: 5px;
+    width: 40%;
+    left:5%;
+    border:1px solid black;
+    min-height: 100px;
+    margin-top:3px;
+}
+.timeline-Box:nth-child(2n){
+    left:53%;
+}
+.timeline-Box:nth-child(2n+1)::after{
+     content: '';
+     position: absolute;
+     top: 30%;
+     right: -13%;
+     border-radius:50%;
+     width: 0.5rem;
+     height: 0.5rem;
+     background-color: red;
+}
+.timeline-Box:nth-child(2n)::after{
+    content: '';
+    position: absolute;
+    top: 30%;
+    left: -10%;
+    border-radius:50%;
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: red;
+}
+
+.timeline-Divider{
+    position: absolute;
+    height: 75%;
+    width: 0;
+    border:3px dashed #0096fa6b ;
+    top: 10%;
+    left: 50%;
+}
+
+/* Education part*/
+
+#educationHeading{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#educationHeading span{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: x-large;
+    color: black;
+}
+#timeLine{
+    position: relative;
+    width:75%;
+    border:4px solid black;
+}
+.timeline-Box{
+    position: relative;
+    margin: 5px;
+    width: 40%;
+    left:5%;
+    border:1px solid black;
+    min-height: 100px;
+    margin-top:3px;
+}
+.timeline-Box:nth-child(2n){
+    left:53%;
+}
+.timeline-Box:nth-child(2n+1)::after{
+     content: '';
+     position: absolute;
+     top: 30%;
+     right: -13%;
+     border-radius:50%;
+     width: 0.5rem;
+     height: 0.5rem;
+     background-color: red;
+}
+.timeline-Box:nth-child(2n)::after{
+    content: '';
+    position: absolute;
+    top: 30%;
+    left: -10%;
+    border-radius:50%;
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: red;
+}
+
+.timeline-Divider{
+    position: absolute;
+    height: 75%;
+    width: 0;
+    border:3px dashed #0096fa6b ;
+    top: 10%;
+    left: 50%;
+}
+
+#portfolioHeading{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#portfolioHeading span{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: x-large;
+    color: black;
+}
+
+/* media queries */
+@media screen and (max-width:600px){
+    .timeline-Divider{
+        left:5%;
+    }
+    .timeline-Box{
+        left: 12% !important;
+        width:80% ;
+    }
+    /* .timeline-Box:nth-child(2n+1)::after{
+        left: -11%;
+    }
+    .timeline-Box:nth-child(2n)::after{
+        left: -11%;
+    } */
+
+    .timeline-Box::after{
+         left: -11% !important;
+    }
+
+    /* .timeline-Box:nth-child(2n){
+        left:12%;
+    } */
+
+}
+
+.timeline-traveller{
+    position: sticky;
+    top: 25%;
+    transform: rotate(90deg);
+
+}
+
+/* extra  */
+.nav-menu li a {
+    transition: color 0.5s, border-bottom 4s;
+}
+
+.nav-menu li a:hover {
+    color: lightgrey;
+    border-bottom: 1px solid black;
+}
