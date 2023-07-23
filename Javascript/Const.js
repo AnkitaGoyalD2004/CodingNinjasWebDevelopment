@@ -1,5 +1,6 @@
 // const only use for read only variable
 //  if we haven't initialize the value to a variable then it give me undefined
+
 var a = 10;
 a = 20;
 console.log(a); // here value is updated to 20
