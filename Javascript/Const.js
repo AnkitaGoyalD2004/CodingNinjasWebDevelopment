@@ -4,6 +4,7 @@
 var a = 10;
 a = 20;
 console.log(a); // here value is updated to 20
+
 // In const we can do as like first initialize and then assign this is incorrect 
 // const only use for read only 
 const c = 80;
